@@ -1,0 +1,67 @@
+/  freely propagating flame
+FREE
+ENRG
+/  time step control
+TIME    100     1.0E-7
+TIM2    200     1.0E-6
+/  initial grid and profile specification
+NPTS    16
+XEND    0.2
+XCEN    0.1
+WMIX    0.05
+/  inlet mass flow rate and atmospheric pressure
+PRES    1.0
+FLRT    0.045
+TFIX    600
+/  mesh adaptation criteria
+GRAD    0.1
+CURV    0.1
+/  convergence tolorance for Newton
+ATOL    1.0E-9
+RTOL    1.0E-4
+/  convergence tolerance for timestepping
+ATIM    1.0E-10
+RTIM    1.0E-5
+/  print control
+PRNT  1
+/  unreacted fuel-oxidizer makeup
+MOLE
+REAC  O2      0.193727
+REAC  CH4     0.077491
+REAC  N2        0.728782
+/  estimated product mole fractions
+PROD  CO2  0.33333
+PROD  H2O  0.66666
+/  estimated temperature profile
+TEMP     0.0000   580.0
+TEMP     0.0625   600.0
+TEMP     0.0875  1030.0
+TEMP     0.1000  1520.0
+TEMP     0.1030  1600.0
+TEMP     0.1075  1700.0
+TEMP     0.1125  1760.0
+TEMP     0.1250  1850.0
+TEMP     0.1375  1900.0
+TEMP     0.1500  1930.0
+TEMP     0.1625  1950.0
+TEMP     0.1750  1965.0
+TEMP     0.1875  1977.0
+TEMP     0.2000  1987.0
+TEMP     0.2125  1998.0
+TEMP     0.2250  2007.0
+TEMP     0.2375  2018.0
+TEMP     0.2500  2028.0
+TEMP     0.2625  2040.0
+TEMP     0.2750  2050.0
+TEMP     0.2875  2060.0
+TEMP     0.3000  2070.0
+TEMP     0.3125  2075.0
+TEMP     0.3250  2085.0
+TEMP     0.3375  2090.0
+TEMP     0.3500  2100.0
+TEMP     0.6000  2170.0
+TEMP     0.8500  2210.0
+TEMP     1.1000  2230.0
+TEMP     5.0000  2230.0
+/  end of input file
+END
